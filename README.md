@@ -3,12 +3,10 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
-
+A: 1.Go through all unit in the unitlists, find naked twins boxes in each unit;2.if the number of naked twins boxes equals to the length of naked twins value, elimate other boxes  using the digit in naked twins value.
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
-
+A: 1.Create diagonal units（using zip function, there are two diagonal units）, and append into the unitlists;2.then use naked twins function、 eliminate function、 only_choice function to reduce unnecessary digit;3.finally use depth first search to solve the problem. 
 ### Install
 
 This project requires **Python 3**.
